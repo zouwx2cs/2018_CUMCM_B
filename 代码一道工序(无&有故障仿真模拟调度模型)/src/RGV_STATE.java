@@ -1,0 +1,3 @@
+public enum RGV_STATE {
+    WAIT, MOVING, UP, DOWN, UP_DOWN, WASHING
+}
