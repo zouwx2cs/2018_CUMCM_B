@@ -6,8 +6,7 @@
 ## <p align="center">问题B 智能RGV的动态调度策略</p>
 
 图1是一个智能加工系统的示意图，由8台计算机数控机床（Computer Number Controller，CNC）、1辆轨道式自动引导车（Rail Guide Vehicle，RGV）、1条RGV直线轨道、1条上料传送带、1条下料传送带等附属设备组成。RGV是一种无人驾驶、能在固定轨道上自由运行的智能车。它根据指令能自动控制移动方向和距离，并自带一个机械手臂、两只机械手爪和物料清洗槽，能够完成上下料及清洗物料等作业任务（参见附件1）。
-<p align="center">
-![](https://raw.githubusercontent.com/zouwx2cs/2018_CUMCM_B/master/img/%E5%9B%BE1%EF%BC%9A%E6%99%BA%E8%83%BD%E5%8A%A0%E5%B7%A5%E7%B3%BB%E7%BB%9F%E7%A4%BA%E6%84%8F%E5%9B%BE.png)</p>
+![](https://raw.githubusercontent.com/zouwx2cs/2018_CUMCM_B/master/img/%E5%9B%BE1%EF%BC%9A%E6%99%BA%E8%83%BD%E5%8A%A0%E5%B7%A5%E7%B3%BB%E7%BB%9F%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 **<p align="center">图1：智能加工系统示意图</p>**
 
 
@@ -26,7 +25,6 @@
 **任务2：**利用表1中系统作业参数的3组数据分别检验模型的实用性和算法的有效性，给出RGV的调度策略和系统的作业效率，并将具体的结果分别填入附件2的EXCEL表中。
 
 **表1：智能加工系统作业参数的3组数据表（时间单位：秒）**
-<p align="center">
 
 系统作业参数 | 第1组 | 第2组 | 第3组
 ---|---|---|---
@@ -39,7 +37,6 @@ CNC加工完成一个两道工序物料的第二道工序所需时间 | 378 | 50
 RGV为CNC1#，3#，5#，7#一次上下料所需时间 | 28 | 30 | 27
 RGV为CNC2#，4#，6#，8#一次上下料所需时间 | 31 | 35 | 32
 RGV完成一个物料的清洗作业所需时间 | 25 | 30 | 25
-</p>
 **<font color="#0000dd">注：每班次连续作业8小时。</font>**
 **附件1：智能加工系统的组成与作业流程**
 **附件2：模型验证结果的EXCEL表（完整电子表作为附件放在支撑材料中提交）**
